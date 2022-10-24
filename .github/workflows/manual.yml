@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
       - name: Install dependencies
-        run: npm ci
+        run: npm i
       - name: Install DEVisible package
         run: npm i -g devisible
       - name: Check for files
