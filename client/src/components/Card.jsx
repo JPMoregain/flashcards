@@ -11,7 +11,6 @@ export const Card = ({ deck, personal }) => {
     setCards([...cards.slice(1), cards[0]]);
     setFront(true);
   };
-  console.log('test')
   const removeCard = () => {
     setCards([...cards.slice(1)]);
     setFront(true);
